@@ -6,7 +6,7 @@ A beautiful tailwindcss progress bar that offers easy customization through tail
 
 ![Nuget](https://img.shields.io/nuget/v/TailBlazor.ProgressBar.svg)
 
-![Demo](screenshot.gif)
+![Demo](screenshot.png)
 
 ## Getting Setup
 
