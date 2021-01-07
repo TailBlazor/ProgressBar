@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>TailBlazor.ProgressBar</PackageId>
+    <RootNamespace>TailBlazor.ProgressBar</RootNamespace>
+    <Version>1.0.2</Version>
+    <Authors>Taylor Watson</Authors>
+    <IsPackage>true</IsPackage>
+    <PackageTags>Blazor; TailBlazorcss; TailBlazor css; tailwind; tailwindcss; ProgressBar; ProgressBars;</PackageTags>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/TailBlazor/ProgressBar</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/TailBlazor/ProgressBar</RepositoryUrl>
+    <Description>
+      A Blazor ProgressBar component based off TailWindCss. It has the bare minimum styles to function with the option to add your own classes. It's built so it can be fully customizable and reusable. For gradients, you will may need to include additional styles if you want certain colour combinations.
+    </Description>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../logo.png" Pack="true" PackagePath="">
+      <LinkBase>assets</LinkBase>
+    </None>
+    <None Include="../../LICENSE" Pack="true" PackagePath="">
+      <LinkBase>assets</LinkBase>
+    </None>
+  </ItemGroup>
+</Project>
